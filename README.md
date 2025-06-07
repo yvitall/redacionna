@@ -1,4 +1,4 @@
-#[📝] Documentação - RedacioNNÁ
+# [📝] Documentação - Redacionná
 
 I. Instruções.
 1. O site deve ser intuitivo, limpo e design simples;
