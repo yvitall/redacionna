@@ -1,0 +1,60 @@
+* {
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background-color: #0f0f0f;
+}
+
+.navbar{
+    display: flex; /* Usa Flexbox para alinhar os elementos horizontalmente */
+    justify-content: space-between; /* Espaça os itens com logo à esquerda e links à direita */
+    align-items: center; /* Centraliza verticalmente os itens da navbar */
+    background-color: #dcdcdc; /* Cor de fundo da navbar */
+    height: 70px; /* Altura da navbar */
+    width: 70%; /* Largura da navbar */
+    border-radius: 20px; /* Bordas arredondadas */
+    margin: 20px auto; /*espaço externo e centralização*/
+    padding: 10px 20px; /*espaçamento interno da nav(vert x horiz)*/
+}
+.logo img{
+    height: 70px;
+    width: auto;
+}
+/* GPT apenas para visualizar */
+.navbar ul {
+    list-style: none; /* Remove os marcadores da lista */
+    display: flex; /* Usa Flexbox para alinhar os links horizontalmente */
+    gap: 50px; /* Espaçamento entre os links */
+    padding-right: 70px;
+
+}
+.navbar-links li a {
+  text-decoration: none; /* Remove o sublinhado dos links */
+  color: #000;
+  font-weight: bold;
+  transition: color 0.5s;
+}
+
+/* Efeito hover */
+.navbar-links li a:hover {
+  color: rgb(127, 104, 255);
+}
+
+footer{
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;;
+    background-color: #dcdcdc;
+    height: 50px;
+    width: 70%;
+    border-radius: 20px;
+}
+footer .content{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo do footer */
+
+}
