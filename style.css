@@ -26,7 +26,7 @@ body{
     list-style: none; /* Remove os marcadores da lista */
     display: flex; /* Usa Flexbox para alinhar os links horizontalmente */
     gap: 50px; /* Espaçamento entre os links */
-    padding-right: 70px;
+    padding-right: 20px;
 
 }
 .navbar-links li a {
@@ -44,17 +44,41 @@ body{
 footer{
     justify-content: center;
     align-items: center;
-    margin: 20px auto;;
+    margin: 20px auto;
     background-color: #dcdcdc;
     height: 50px;
     width: 70%;
     border-radius: 20px;
 }
-footer .content{
-    font-family: Arial, Helvetica, sans-serif;
+footer .content1{
+   font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
     font-weight: bold;
-    display: flex;
+    display: flex; /*permite que o conteúdo se alinhe horizontalmente (um ao lado do outro)*/
     justify-content: center; /* Centraliza o conteúdo do footer */
+    padding: 5px 70px; /* Espaçamento interno do footer */
+    
+}
 
+.title {
+    background-color: #dcdcdc;
+    border-radius: 20px;
+    display: inline-flex;
+    
+}
+
+.title h1 {
+    font-size: 20px;
+    padding: 0 20px 0px 20px;
+}
+
+.corpo {}
+
+.corpo {
+    color: #dcdcdc;
+
+}
+img {
+    width: 50px;
+    height: auto;
 }
